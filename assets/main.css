@@ -1,0 +1,128 @@
+.picks1 {
+position: absolute;
+left: 0px;
+top: 0px;
+
+background: url(61hdpZycGAL.jpg);
+mix-blend-mode: exclusion;
+}
+
+.group1:hover {
+opacity: 0.3;
+  cursor: zoom-in;
+  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 2s ease infinite;
+  -moz-animation: slideBackground 2s ease infinite;
+  animation: slideBackground 2s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
+.outline{
+position: absolute;
+width: 209.5px;
+height: 187.5px;
+left: 251px;
+top: 511.5px;
+
+border: 6px solid #D81F1F; }
+/* Vector 2 */
+
+.easy{
+position: absolute;
+width: 692px;
+height: 218px;
+left: 693px;
+top: 0px;
+
+font-family: "Gill Sans", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 171px;
+
+color: #000000;
+}
+
+.group1 {
+opacity: 0.2;
+cursor: zoom-in;
+position: absolute;
+width: 553px;
+height: 530px;
+left: 800px;
+top: 300px;
+}
+
+.group1:hover {
+	z-index: -2;
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    }
+
+.tortex {
+opacity: 0;
+position: absolute;
+left: 262px;
+top: 490px;
+	max-width: 200px;
+}
+
+.tortex:hover{
+	cursor: zoom-in;
+	opacity: 1;
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.variety {
+	position: absolute;
+	left: 600px;
+	max-width: 800px;
+	bottom: 80px;
+	z-index: -3;
+}
+
+.lose {
+	opacity: 0.3;
+	position: absolute;
+	right: 280px;
+	top: 450px;
+	max-height: 200px;
+	z-index: 5;
+}
+
+.lose:hover {
+	cursor: zoom-in;
+	opacity: 1;
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
